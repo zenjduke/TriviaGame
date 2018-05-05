@@ -121,7 +121,7 @@ var triviaGame = {
         $("#result").append(sadGif);
         $("#game").hide();
         $("#resultBox").show();
-        $("#resultText").text("Shameful.");
+        $("#resultText").text("Shameful. The answer is "+ correct +".");
         // buzzer.play();
         time=3;
       }
